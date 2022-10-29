@@ -1,4 +1,6 @@
-## Spritesheet Cutter
+# Spritesheet Cutter
+
+This project is a fork of yeoji/spritesheet-cutter but without jQuery.
 
 This project uses [Sprite Cow](https://github.com/jakearchibald/sprite-cow) as a base for sprite selection. It is extended with spritesheet cutting and export features.
 
@@ -9,14 +11,3 @@ yarn dev
 ```
 
 Go to `http://localhost:1234`
-
-### Todo
-- [x] Export individual selected sprites as PNG
-- [x] Preview panel for selected sprite
-- [ ] Zoom in/out
-
-### Ideas
-- [ ] Right-click to export
-- [ ] Shift to select multiple sprites and export all
-- [ ] Adjustable rectangle after selection
-- [ ] Grid-based slicing
